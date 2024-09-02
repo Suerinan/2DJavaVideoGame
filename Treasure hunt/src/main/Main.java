@@ -8,7 +8,7 @@ public class Main { // LOADING GAMEPANEL
 		JFrame window = new JFrame();
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setResizable(false);
-		window.setTitle("Slayder Adventure");
+		window.setTitle("Treasure hunt");
 		
 		GamePanel gamePanel = new GamePanel();
 		window.add(gamePanel);
